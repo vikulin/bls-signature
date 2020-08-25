@@ -1,18 +1,18 @@
-package com.gazman.bls;
-
-import it.unisa.dia.gas.jpbc.Element;
-import it.unisa.dia.gas.jpbc.Pairing;
-import org.junit.Before;
-import org.junit.Test;
-import org.rivnetwork.bls.BlsSignatures;
-import org.rivnetwork.bls.model.BlsModel;
-import org.rivnetwork.bls.model.Signature;
-
-import java.util.ArrayList;
+package org.rivnetwork.bls;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.rivnetwork.utils.HashUtils.hash;
+
+import java.util.ArrayList;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.rivnetwork.bls.model.BlsModel;
+import org.rivnetwork.bls.model.Signature;
+
+import it.unisa.dia.gas.jpbc.Element;
+import it.unisa.dia.gas.jpbc.Pairing;
 
 /**
  * Created by Ilya Gazman on 2/3/2018.
